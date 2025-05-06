@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicios de tabela</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+          table{
+        border-collapse: collapse;
+        width: 500px;
+    
+       }
+        th,td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+        col.cnome{
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercicio de Tabela</h1>
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprof">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">idade</th>
+            <th scope="col">Profissão</th>
+            
+        </tr>
+        <tr>
+            <td>Ana maria </td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Lucas Silva</td>
+            <td>M</td>
+            <td>30</td>
+            <td>Engenheiro</td>
+        </tr>
+        <tr>
+            <td>Juliana Costa</td>
+            <td>F</td>
+            <td>27</td>
+            <td>Designer</td>
+        </tr>
+        <tr>
+            <td>Bruno Rocha</td>
+            <td>M</td>
+            <td>35</td>
+            <td>Professor</td>
+        </tr>
+        <tr>
+            <td>Mariana Lopes</td>
+            <td>F</td>
+            <td>22</td>
+            <td>Estudante</td>
+        </tr>
+        <tr>
+            <td>Tiago Almeida</td>
+            <td>M</td>
+            <td>41</td>
+            <td>Programador</td>
+        </tr>
+    </table>
+</body>
+</html>
